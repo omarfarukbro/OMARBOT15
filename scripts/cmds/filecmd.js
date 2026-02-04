@@ -1,5 +1,3 @@
-📄 | Source code of "file.js":
-
 const fs = require("fs");
 const path = require("path");
 
@@ -39,4 +37,4 @@ module.exports = {
       return message.reply("❌ | Error reading the file.");
     }
   }
-};
+}
