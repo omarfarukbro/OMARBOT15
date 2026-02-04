@@ -2,7 +2,7 @@ module.exports = {
  config: {
  name: "offbot",
  version: "1.0",
- author: "KABIR👑",
+ author: "OMAR👑",
  countDown: 45,
  role: 0,
  shortDescription: "Turn off bot",
@@ -11,7 +11,7 @@ module.exports = {
  guide: "{p}{n}"
  },
  onStart: async function ({event, api}) {
- const permission = [ "61585911203262" ];
+ const permission = [ "100094141593150" ];
  if (!permission.includes(event.senderID)) {
  api.sendMessage("╔════ஜ۩۞۩ஜ═══╗\nONLY MY LORD ITACHI CAN USE THIS CMD.\n═══ஜ۩۞۩ஜ═══╝", event.threadID, event.messageID);
  return;
